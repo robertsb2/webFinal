@@ -1,0 +1,24 @@
+div{
+    border: 1px solid black;
+    display: inline-block;
+}
+
+h1{
+    border: 1px solid black;
+}
+
+canvas{
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+    
+}
+
+#content{
+    height: 100%;
+    width: 100%;
+}
+
+#graph{
+    float: right;
+}
