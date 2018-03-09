@@ -1,0 +1,38 @@
+.box{
+    border: 2px solid #fff;
+    background-color: #fff;
+    position: relative;
+    text-align: center;
+    flex: 1;
+}
+#container{
+    display: flex;
+    height: 50px;
+    flex-direction: initial;
+}
+#link1, #link2, #link4, #link5{
+    flex: 1;
+}
+#link3{
+    flex: 2;
+}
+.slider_container {
+    position: relative;
+}
+.slider_container img {
+    position: relative;
+    width: 65%;
+    height: 550px;
+}
+.slider_container .border_box {
+    position: absolute;
+    border: 3px solid #000;
+    left: 5px;
+    right: 5px;
+    top: 5px;
+    bottom: 10px;
+}
+
+#content{
+    border: 3px solid #000;
+}
