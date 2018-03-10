@@ -1,42 +1,35 @@
 $(document).ready(function(){
-    $('#link1').on('mouseover', function(){
-        $('#link1').css({
+    $(".box").on('mouseover',function(){
+        $(this).css({
             "background-color": "#F8DE7E",
         });
     });
-    $('#link1').on('mouseleave', function(){
-        $('#link1').css({
+
+    $('.box').on('mouseleave', function(){
+        $(this).css({
             "background-color": "#ffc",
         });
     });
-    $('#link2').on('mouseover', function(){
-        $('#link2').css({
-            "background-color": "#F8DE7E",
-        });
-    });
-    $('#link2').on('mouseleave', function(){
-        $('#link2').css({
-            "background-color": "#ffc",
-        });
-    });
-    $('#link4').on('mouseover', function(){
-        $('#link4').css({
-            "background-color": "#F8DE7E",
-        });
-    });
-    $('#link4').on('mouseleave', function(){
-        $('#link4').css({
-            "background-color": "#ffc",
-        });
-    });
-    $('#link5').on('mouseover', function(){
-        $('#link5').css({
-            "background-color": "#F8DE7E",
-        });
-    });
-    $('#link5').on('mouseleave', function(){
-        $('#link5').css({
-            "background-color": "#ffc",
-        });
+
+
+    var large = false;
+        $(".contact").on("click",function(){
+            if(large){
+                $(this).height("20px");
+                $(this).width("100px");
+                $(this).css({
+                    "font-size": "1em",
+                });
+                large = false;
+                console.log("test");
+            }else{
+                $(this).height("40px");
+                $(this).width("200px");
+                $(this).css({
+                    "font-size": "2em",
+                });
+                large = true;
+                console.log("test");
+        }
     });
 });
