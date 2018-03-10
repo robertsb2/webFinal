@@ -1,9 +1,14 @@
+html{
+    background-color: #f0ffff;
+    font-family: 'Handlee', cursive;
+    color: #99c;
+}
 .box{
-    border: 2px solid #fff;
-    background-color: #fff;
-    position: relative;
+    border: 2px solid #ccf;
+    background-color: #ffc;
     text-align: center;
     flex: 1;
+    border-radius: 30px;
 }
 #container{
     display: flex;
@@ -26,13 +31,24 @@
 }
 .slider_container .border_box {
     position: absolute;
-    border: 3px solid #000;
+    /* border: 3px solid #000; */
     left: 5px;
     right: 5px;
     top: 5px;
     bottom: 10px;
 }
-
+footer{
+    text-align: center;
+}
 #content{
-    border: 3px solid #000;
+    border: none;
+    background-color: #f0ffff;
+}
+a{
+    width: 10%;
+    margin: auto 5%;
+    text-decoration: none;
+}
+.para{
+    font-size: 20px;
 }
