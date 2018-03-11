@@ -1,11 +1,12 @@
 html{
     background-color: #f0ffff;
     font-family: 'Handlee', cursive;
+    color: #99c;
+    text-align: center;
 }
 .box, .menu, .logo{
     border: 2px solid #ccf;
     background-color: #ffc;
-    text-align: center;
     flex: 1;
     border-radius: 30px;
 }
@@ -26,7 +27,8 @@ a{
     text-decoration: none;
 }
 .contact{
-    border: 1px solid black;
+    border: 1px solid #ccf;
+    background-color: #ffc;
     height: 20px;
     width: 100px;
 }

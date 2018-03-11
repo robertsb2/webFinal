@@ -1,9 +1,14 @@
-.box{
-    border: 2px solid #fff;
-    background-color: #fff;
-    position: relative;
+html{
+    background-color: #f0ffff;
+    font-family: 'Handlee', cursive;
+    color: #99c;
     text-align: center;
+}
+.box, .menu, .logo{
+    border: 2px solid #ccf;
+    background-color: #ffc;
     flex: 1;
+    border-radius: 30px;
 }
 #container{
     display: flex;
@@ -17,15 +22,16 @@
     flex: 2;
 
 }
-h1{
+/* h1{
     border: 1px solid black;
-}
+} */
 
 canvas{
     height: 100%;
     width: 100%;
-    border: 1px solid black;
-    
+    border: 3px solid #ccf;
+    border-radius: 30px;
+    background-color: #ffc;
 }
 
 #content{
@@ -38,4 +44,9 @@ canvas{
     margin-right: 20%;
     height: 400px;
     width: 600px;
+}
+a{
+    width: 10%;
+    margin: auto 5%;
+    text-decoration: none;
 }
