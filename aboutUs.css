@@ -40,8 +40,6 @@ canvas{
 }
 
 #graph{
-    float: right;
-    margin-right: 20%;
     height: 400px;
     width: 600px;
 }
