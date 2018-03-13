@@ -15,14 +15,14 @@ $(document).ready(function(){
     var large = false;
         $(".contact").on("click",function(){
             if(large){
-                $(this).height("20px");
+                $(this).height("50px");
                 $(this).width("100px");
                 $(this).css({
                     "font-size": "1em",
                 });
                 large = false;
             }else{
-                $(this).height("40px");
+                $(this).height("100px");
                 $(this).width("200px");
                 $(this).css({
                     "font-size": "2em",
