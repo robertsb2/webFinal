@@ -49,3 +49,7 @@ footer p{
     margin: 0;
     padding-top: calc(175px - 1em);
 }
+img{
+    border: 2px solid #ccf;
+    border-radius: 30px;
+}
