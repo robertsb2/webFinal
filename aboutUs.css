@@ -24,7 +24,7 @@ html{
 }
 /* h1{
     border: 1px solid black;
-} */
+} */ 
 
 canvas{
     height: 100%;
@@ -42,9 +42,14 @@ canvas{
 #graph{
     height: 400px;
     width: 600px;
+    margin: 0 auto;
 }
 a{
     width: 10%;
     margin: auto 5%;
     text-decoration: none;
+}
+
+footer{
+    padding: 5%;
 }
