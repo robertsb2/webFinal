@@ -43,6 +43,7 @@ footer{
 #content{
     border: none;
     background-color: #f0ffff;
+    margin-bottom: -50px;
 }
 a{
     width: 10%;
@@ -55,4 +56,13 @@ a{
 img{
     border: 2px solid #ccf;
     border-radius: 30px;
+}
+
+#push, footer{
+    height: 50px;
+}
+
+footer p{
+    margin: 0;
+    padding-top: calc(50px - 1em);
 }

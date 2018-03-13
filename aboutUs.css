@@ -22,9 +22,6 @@ html{
     flex: 2;
 
 }
-/* h1{
-    border: 1px solid black;
-} */ 
 
 canvas{
     height: 100%;
@@ -37,6 +34,7 @@ canvas{
 #content{
     height: 100%;
     width: 100%;
+    margin-bottom: -50px;
 }
 
 #graph{
@@ -49,7 +47,11 @@ a{
     margin: auto 5%;
     text-decoration: none;
 }
-
-footer{
-    padding: 5%;
+footer, #push{
+    height: 115px;
+}
+footer p{
+    vertical-align: bottom;
+    margin: 0;
+    padding-top: calc(115px - 1em);
 }

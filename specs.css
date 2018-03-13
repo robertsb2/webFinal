@@ -36,3 +36,16 @@ a{
 .para{
     font-size: 20px;
 }
+
+#content{
+    margin-bottom: -50px;
+}
+
+footer, #push{
+    height: 175px;
+}
+
+footer p{
+    margin: 0;
+    padding-top: calc(175px - 1em);
+}
