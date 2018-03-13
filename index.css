@@ -52,3 +52,7 @@ a{
 .para{
     font-size: 20px;
 }
+img{
+    border: 2px solid #ccf;
+    border-radius: 30px;
+}

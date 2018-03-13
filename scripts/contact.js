@@ -21,7 +21,6 @@ $(document).ready(function(){
                     "font-size": "1em",
                 });
                 large = false;
-                console.log("test");
             }else{
                 $(this).height("40px");
                 $(this).width("200px");
@@ -29,7 +28,6 @@ $(document).ready(function(){
                     "font-size": "2em",
                 });
                 large = true;
-                console.log("test");
         }
     });
 });

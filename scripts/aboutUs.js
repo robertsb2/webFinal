@@ -26,8 +26,8 @@ $(document).ready(function () {
     GRAPH_BOTTOM = CANVS_HEIGHT - VERTICAL_SPACING
     GRAPH_EDGE = CANVS_WIDTH - CANVS_WIDTH + SIDE_SPACING;
     drawEverything();
-
 });
+
 
 
 function drawEverything() {
